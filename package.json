@@ -1,0 +1,16 @@
+{
+  "name": "passport-trello",
+  "version": "0.1.0",
+  "description": "Trello authentication strategy for Passport.",
+  "author": "Dmitry Gorbunov <atskiisotona@gmail.com> (http://about.me/tewi)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/fuwaneko/passport-trello.git"
+  },
+  "main": "./lib/passport-trello",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "trello", "auth", "authn", "authentication", "identity"]
+}
