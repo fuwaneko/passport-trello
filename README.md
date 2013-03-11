@@ -1,0 +1,1 @@
+Add trelloParams object to Passport.use for additional Trello params like access or expire.
