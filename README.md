@@ -1,9 +1,17 @@
 Trello strategy for [passport](http://passportjs.org/)
 - - -
 
+Install
+
+```
+$ npm install passport-trello
+```
+
 Simple usage (CoffeeScript):
 
 ```coffeescript
+TrelloStrategy = require('passport-trello').Strategy
+
 passport.use 'trello', new TrelloStrategy(
     consumerKey: TRELLO_ID
     consumerSecret: TRELLO_SECRET
