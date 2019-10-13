@@ -1,18 +1,22 @@
 {
   "name": "passport-trello",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "Trello authentication strategy for Passport.",
   "author": "Dmitry Gorbunov <me@tewi.tk> (http://tewi.tk)",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "http://github.com/fuwaneko/passport-trello.git"
   },
-  "main": "./lib/passport-trello",
+  "scripts": {
+    "test": "npx mocha tests/**"
+  },
+  "main": "index.js",
   "dependencies": {
-    "passport-oauth1": "^1.0.1"
+    "passport-oauth1": "^1.1.0"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 10"
   },
   "keywords": [
     "passport",
@@ -21,5 +25,13 @@
     "authn",
     "authentication",
     "identity"
-  ]
+  ],
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.1",
+    "nock": "^11.4.0",
+    "passport": "^0.4.0",
+    "supertest": "^4.0.2"
+  }
 }
