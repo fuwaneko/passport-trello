@@ -27,11 +27,11 @@
     "identity"
   ],
   "devDependencies": {
-    "expect": "^24.9.0",
+    "expect": "^26.0.1",
     "express": "^4.17.1",
-    "mocha": "^6.2.1",
-    "nock": "^11.4.0",
-    "passport": "^0.4.0",
+    "mocha": "^7.2.0",
+    "nock": "^12.0.3",
+    "passport": "^0.4.1",
     "supertest": "^4.0.2"
   }
 }
